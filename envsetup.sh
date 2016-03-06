@@ -651,6 +651,8 @@ function lunch()
 
     echo
 
+    export USE_PREBUILT_CHROMIUM=1
+
     if [[ $USE_PREBUILT_CHROMIUM -eq 1 ]]; then
         chromium_prebuilt
     else
